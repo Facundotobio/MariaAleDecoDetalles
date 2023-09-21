@@ -21,15 +21,7 @@ section{
     text-align: center;
     font-family: 'Josefin Sans';
     font-weight: 300;
-    margin-top: 40px; 
-}
-
-.seccion-titulo2{
-    font-size: 2.5rem;
-    text-align: center;
-    font-family: 'Josefin Sans';
-    font-weight: 300;
-    margin-bottom: 40px; 
+    margin-top: 30px; 
 }
 
 .seccion-texto{
@@ -83,204 +75,19 @@ section{
     margin-right: 10px;
     margin-top: -70px;
 }
+/* Pasos para la compra */
 
-/* SECCION PRINCIPAL */  
-.hero{
-    background-color: white;
-    min-height: 450px;
-    text-align: center;
-}
-
-.huno{
-    font-size: 4rem;
-    font-family: 'Josefin Sans';
-    font-weight: 600;
-    margin-right: 200px;
-    margin-bottom: 25px;
-}
-
-.imagen{
-    height: 400px;
-    width: 1000px;
-    border-radius: 20px;
-    margin-bottom: 40px;
-    box-shadow: 0px 0px 15px 0px rgba(0.80, 0.80, 0.80, 0.80);
-}
-
-/* SECCION SOBRE MI */
-
-.seccion-titulosm{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-    text-align: center;
-    font-family: 'Josefin Sans';
-    font-weight: 300;
-}
-
-.sobre-mi{
-    padding: 40px;
-    padding-bottom: 30px;
-    margin-top: 60px;
-}  
-
-.sobre-mi .contenedor{
-    max-width: 900px;
-    text-align: center;
-}
-
-.floresSobreMi{
-    width: 600px;
-    height: 80px;
-    margin-bottom: 10px;
-}
-
-/* Productos */
-.proyectos-recientes{
-    padding: 30px;
-}
-
-.proyectos-recientes img {
-    height: 100%;
-    width: 100%;
-    display: block;
-    transition: all 0.2s ease;
-}
-
-.proyectos-contenedor{
-    padding-top: 30px;
-}
-
-.proyecto1{
-    position: relative;
-    margin: 20px 0;
-}
-
-.proyecto{
-    position: relative;
-    margin: -25px 0;
-    margin-bottom: 30px;
-}
-
-.overlay{
-    transition: all 0.2s ease;
-    opacity: 0;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.overlay p{
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 0;
-    color: black;
-    font-family: 'Josefin Sans';
-    font-weight: 300;
-}
-
-.overlay .iconos-contenedor{
+.atras{
     display: flex;
-}
-
-.overlay i{
-    color: black;
-    font-size: 80px;
-    margin: 50px;
-    
-}
-
-.proyecto1:hover img{
-    opacity: 0.3;
-}
-
-.proyecto1:hover .overlay{
-    opacity: 1;
-
-}
-
-.proyecto:hover img{
-    opacity: 0.3;
-}
-
-.proyecto:hover .overlay{
-    opacity: 1;
-
-}
-.card{
-    background-color: white;
-    align-items: center;
-}
-
-.card-title{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: black;
-    font-family: 'Josefin Sans';
-    font-weight: 600;
-}
-
-.card-text{
-font-size: 1.3rem;
-color: black;
-font-family: 'Josefin Sans';
-font-weight: 300;
-}
-
-.text-body-secondary{
-    font-weight: 700;
-    font-size: 1rem;
-    font-family: 'Josefin Sans';
-    font-weight: 300;
-}
-
-.btn-info{
-    font-size: 1.2rem;
-    margin: 30px;
-    font-family: 'Josefin Sans';
-    font-weight: 300;
-    background-color: #bdbdbd;
-    color: black;
-    border: none;
-}
-
-.btn-info:hover{
-    background-color:#7b7a69;
-    color: white;
-}
-
-.btn.btn-info:active{
-    background-color: black;
-    color: white;
-}
-
-/* Cards */
-
-.imagenes{
-    width: 1150px;
-    margin: 10px;
-}
-
-.card-img-top{
-    height: 500px;
-    margin-bottom: 15px;
-}
-
-.cards-title{
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: black;
-    font-family: 'Josefin Sans';
-    font-weight: 300;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 100px;
 }
 
 /* Pasos para la compra */
 
 .atencionPersonalizada{
 margin-bottom: 130px;
-margin-top: 15px;
 }
 
 .btn.btn-primary{
@@ -299,7 +106,7 @@ margin-top: 15px;
     font-size: 1.3rem;
 }
 
-.btn.btn-primary:hover{
+.btn.btn-primaryhover{
     background-color:#7b7a69;
     color: white;
 }
@@ -366,6 +173,25 @@ box-shadow: 0px 1px 5px 1px;
     margin-top: 15px;
 }
 
+.btn-info{
+    font-size: 1.2rem;
+    font-family: 'Josefin Sans';
+    font-weight: 300;
+    background-color: #bdbdbd;
+    color: black;
+    border: none;
+}
+
+.btn-info:hover{
+    background-color:#7b7a69;
+    color: white;
+}
+
+.btn.btn-info:active{
+    background-color: black;
+    color: white;
+}
+
 /* FOOTER*/
 footer{
     min-height: 150px;
@@ -400,13 +226,12 @@ footer{
 }
 
 .iconos-redes-sociales a:hover{
-    background-color:#7b7a69;
-    color: white;
-    border: 2px solid #ffffff
+    background-color: white;
+    border: 2px solid #000000
 }
 
 .iconos-redes-sociales a:hover i{
-    color: white;
+    color: black;
 }
 
 .derechos-de-autor{

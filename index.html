@@ -53,177 +53,67 @@
                 </a>
                 <ul class="navbar-nav d-flex justify-content-center align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href=#sobreMi>Acerca de nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#productos">Productos</a>
+                        <a class="nav-link active" aria-current="page" href="#productos">Productos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
+            <div class="atras">
+            <a href="https://maria-ale-deco.vercel.app/" rel="noopener noreferrer">
+              <button type="button" class="btn btn-info">Atras <i class="bi bi-arrow-left-circle"></i></button>
+              </a>
+            </div>
         </div>
     </nav>
 
-    <!-- SECCION PRINCIPAL-->
-    <section class="hero align-items-stretch">
-        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-            <h1 class="huno">Maria Ale Deco</h1>
-            <img src="FotosGenerales/bannerPortadaMariaAle.jpg" alt="Foto personal" class="imagen">
-        </div>
-    </section>
-    
-    <!--SOBRE MARIA ALE -->
-    <section id="sobreMi" class="sobre-mi seccion-oscura">
-    <div class="contenedor">
-        <h2 class="seccion-titulosm texto-negro">Sobre Maria Ale..</h2>
-        <p class="seccion-texto texto-negro">Siempre me gustaron las manualidades,
-            comencé dando mis primeros pasos con costura, luego incursioné en la repostería,
-             enfocando mi trabajo en los más pequeños, después indagué en el tejido, donde la mayoria de mis 
-             trabajos fueron para mi familia, y por ultimo me introduje con la cerámica, la cual me encanta!
-            Mis tres hijas me apoyaron y alentaron para que comience con este emprendimiento, el cual lleva 3 años participando 
-            en el cambio y mejora de los ambientes de aquellos clientes que deciden elegirme, brindándoles atención personalizada, 
-            tratando de aportar mis mejores ideas para cada caso en particular. <br>
-            Nuestra misión apunta a la busqueda de la satisfacción de nuestros clientes, bazándonos en la calidad de nuestras telas,
-             la prolijidad en nuestro servicio y la atención personalizada. Nos motiva participar en la
-              renovación y cambios de vuestros ambientes, con la mejor intensión de que se vean agradables, acogedores y estéticos,
-             estos cambios renuevan la energía, generando bienestar personal y buenas vibras.
-        </p>
+    <!--Carrusel de PRODUCTOS -->        
+<section>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <h2 class="seccion-titulo texto-negro">Desliza para ver más detalles</h2>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
     </div>
-    <div>
-    <img src="FotosGenerales/Flor.png" alt="flores" class="floresSobreMi">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Detalles/detalle1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Detalles/detalle 2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Detalles/detalle3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Detalles/detalle4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Detalles/detalle6.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Detalles/detalle7.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Detalles/detalle8.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-    </section>
-
-    <!--PRODUCTOS -->
-    <section id="productos" class="proyectos-recientes seccion-clara d-flex flex-column">
-        <h2 class="seccion-titulo texto-negro">Productos</h2>
-        <h3 class="seccion-descripcion">Deco para tu hogar a precios increíbles</h3>
-        <!-- galeria de productos-->
-        <div class="row justify-content-center proyectos-contenedor">
-            <div class="col-8 col-md-6
-            ">
-                <div class="proyecto1">
-                    <!-- Cortinas -->
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Cortinas</h5>
-                            <p class="card-text">Aca necesito caracteristicas de las cortinas, telas disponibles por ej. y todo lo q se te ocurra q pueda sumar. Lo de las medidas de abajo lo puse de ejemplo, despues cuando vaya terminando si corroboramos q los datos de cada cosa sean reales
-                            </p>
-                                <p class="card-text"><small class="text-body-secondary"> Medidas mas utilizadas: 120x140 / 130x160 / 140x180
-                                </small></p>
-                        </div>
-                        <img src="Cortinas/cortina4.jpg" alt="Recipes">
-                        <div class="overlay">
-                            <p>Realizamos diseños a medida.</p>
-                        </div>
-                        <a href="https://maria-ale-deco-cortinas.vercel.app/" rel="noopener noreferrer">
-                        <button type="button" class="btn btn-info">Ver más artículos como este <i class="bi bi-arrow-right-circle-fill"></i></button>
-                        </a>
-                    </div>
-                </div>
-        <div class="proyecto1">
-            <!-- Cortinas -->
-            <div class="card ">
-                <div class="card-body">
-                    <h5 class="card-title">Pies de cama</h5>
-                    <p class="card-text">Aca necesito caracteristicas de las cortinas, telas disponibles por ej. y todo lo q se te ocurra q pueda sumar. Lo de las medidas de abajo lo puse de ejemplo, despues cuando vaya terminando si corroboramos q los datos de cada cosa sean reales
-                    </p>
-                        <p class="card-text"><small class="text-body-secondary"> Medidas mas utilizadas: 120x140 / 130x160 / 140x180
-                        </small></p>
-                </div>
-                <img src="Pies/pie4.jpg" alt="Recipes">
-                <div class="overlay">
-                    <p>Realizamos diseños a medida.</p>
-                </div>
-                <a href="https://maria-ale-deco-pies-de-cama.vercel.app/" rel="noopener noreferrer">
-                        <button type="button" class="btn btn-info">Ver más artículos como este  <i
-                            class="bi bi-arrow-right-circle-fill"></i></button>
-                        </a>
-            </div>
-        </div>
-        <div class="proyecto1">
-            <!-- Cortinas -->
-            <div class="card ">
-                <div class="card-body">
-                    <h5 class="card-title">Sabanas</h5>
-                    <p class="card-text">Aca necesito caracteristicas de las cortinas, telas disponibles por ej. y todo lo q se te ocurra q pueda sumar. Lo de las medidas de abajo lo puse de ejemplo, despues cuando vaya terminando si corroboramos q los datos de cada cosa sean reales
-                    </p>
-                        <p class="card-text"><small class="text-body-secondary"> Medidas mas utilizadas: 120x140 / 130x160 / 140x180
-                        </small></p>
-                </div>
-                <img src="sabana1.jpg" alt="Recipes">
-                <div class="overlay">
-                    <p>Consulta para conocer todas las medidas disponibles.</p>
-                </div>
-                <a href="https://maria-ale-deco-sabanas.vercel.app/" rel="noopener noreferrer">
-                        <button type="button" class="btn btn-info">Ver más artículos como este  <i
-                            class="bi bi-arrow-right-circle-fill"></i></button>
-                        </a>
-            </div>
-        </div>
-    </section>
-
-  <!--Carrusel -->
-    <section>
-        <h2 class="seccion-titulo2 texto-negro">Más de lo nuestro</h2>
-        <div class="imagenes">
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-              <div class="cards">
-                <img src="Cards/alfombras.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="cards-title">Alfombras</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="cards">
-                <img src="Cards/almohadones.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="cards-title">Almohadones</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="cards">
-                <img src="Cards/caminito.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="cards-title">Caminos de mesa</h5>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-                <div class="cards">
-                  <img src="Cards/repasadores.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="cards-title">Repasadores</h5>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="cards">
-                  <img src="Cards/toallas.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="cards-title">Toallas</h5>
-                  </div>
-                </div>
-              </div>
-            <div class="col">
-              <div class="cards">
-                <img src="Cards/mantel.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="cards-title">Manteles</h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a href="https://maria-ale-deco-cortinas.vercel.app/" rel="noopener noreferrer">
-            <button type="button" class="btn btn-info">Ver más en detalle <i class="bi bi-arrow-right-circle-fill"></i></button>
-            </a>
-      </section>
+</section>
 
     <!--Atencion perzonalizada -->
     <section class="atencionPersonalizada">
